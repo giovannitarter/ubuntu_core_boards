@@ -1,0 +1,37 @@
+name: orangepi-one-kernel
+version: 4.13
+summary: A orange pi one kernel built from source
+description: This is the reference kernel for orange pi
+type: kernel
+architectures: 
+    - armhf
+
+parts:
+    kernel:
+        plugin: kernel
+        
+        source-type: git
+        source: /home/praim/src/linux-orangepi
+        source-branch: orange-pi-4.13
+
+        kdefconfig: [sunxi_defconfig]
+        kconfigs:
+            - CONFIG_LOCALVERSION="-orangepi-one"
+            - CONFIG_DEBUG_INFO=y
+            - CONFIG_SQUASHFS=m
+            - CONFIG_DEVPTS_MULTIPLE_INSTANCES=y
+            - CONFIG_SQUASHFS_XZ=y
+        
+        kernel-initrd-modules:
+            - squashfs
+
+        kernel-image-target: zImage
+
+        kernel-device-trees:
+            - sun8i-h3-orangepi-one
+
+        #kernel-with-firmware: False
+        kernel-with-firmware: True
+
+        build-packages: [bc, kmod, cpio]
+

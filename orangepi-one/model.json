@@ -1,0 +1,11 @@
+{
+  "type": "model",
+  "authority-id": "Wg5wHllzHPvjzwmCq6u6d34KYXjcS0mw",
+  "brand-id": "Wg5wHllzHPvjzwmCq6u6d34KYXjcS0mw",
+  "series": "16",
+  "model": "orange-pi-one",
+  "architecture": "armhf",
+  "gadget": "orangepi-one-gadget",
+  "kernel": "orangepi-one-kernel",
+  "timestamp": "2017-10-28T22:15:12+00:00"
+}

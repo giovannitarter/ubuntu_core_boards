@@ -1,0 +1,21 @@
+type: model
+authority-id: Wg5wHllzHPvjzwmCq6u6d34KYXjcS0mw
+series: 16
+brand-id: Wg5wHllzHPvjzwmCq6u6d34KYXjcS0mw
+model: orange-pi-one
+architecture: armhf
+gadget: orangepi-one-gadget
+kernel: orangepi-one-kernel
+timestamp: 2017-10-28T22:15:12+00:00
+sign-key-sha3-384: VIOIDx5Ae5gEfjEPo-7xjqXzZbSAUBQNbmesud2ZCc7I7y6tq4Aa423vuIpQ_FU7
+
+AcLBXAQAAQoABgUCWfmBigAKCRCZHY8AeQfp+15vEAC/Se3BWEyHVFpcu9Sh/UCmZjhWNqU5FE0r
+VrTPEJr8/J+OuTktwOiLFiWsvzAHaXfvya2sOKfqKNfffAXflhMxqmeTfM1rVCiqwllzP5l0KWZa
+UJaGGUuqWGtKjlOGkfHRdI0Nvb251c/Ym0uTndAJeatYCnYXtuz5L29MLMIfg1mPiUmKVXBjr/sL
+LC5lRgQ0ltXuCmLX6It0NIpkcaJGhDguQ0KhvdI/qmVkSuDza6eMawYkUcQ2t45ir4UYmJwusjfv
+zklYaTBkQEUzEvJUmFT9XKSgdCDAgvAIrQ1b/uryaoLo4ExT8czjJiv9LPl8GgDk0FoyV2ICCWy7
+Z8i6eivX1Qac4hkrGYeuXY4tDxN8VWayxEC+L5CDvPuqMzBw7T+/nEUqYHaU/G/T6C7I1QxJokju
+kmaBPvy2pdkjhTs/7yCwbhzAFFfQBtyBVFJjvvolIQWN4uS/CojYZlaNu/u9USqHQ7UC47r9y5gR
+q0Z0O6GbVLwnTDg0s9RRxCydwkpg4ZKKHU81Lplhq+JOdIgHN5cwBqNeYuvpIkmIhw1lZ67OiCLV
+c408omeUNo9RFGteRlpSKnZkej6bsgsx9/cuVRLeN1zHtmYFJvK14dMnl3Y+IDtajUrODFY2qb0Q
+KHLDHabi0jMJEx6s0HFgzXSJpbSOzZCeX64gVHukUg==
