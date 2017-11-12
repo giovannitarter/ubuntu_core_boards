@@ -14,13 +14,25 @@ parts:
         source: /home/praim/src/linux-orangepi
         source-branch: orange-pi-4.13
 
-        kdefconfig: [sunxi_defconfig]
+        #kdefconfig: [sunxi_defconfig]
+        kconfigfile: config_orangepi_4.13
         kconfigs:
             - CONFIG_LOCALVERSION="-orangepi-one"
             - CONFIG_DEBUG_INFO=y
             - CONFIG_SQUASHFS=m
             - CONFIG_DEVPTS_MULTIPLE_INSTANCES=y
             - CONFIG_SQUASHFS_XZ=y
+            - CONFIG_IPV6=y
+            - CONFIG_SECURITY=y
+            - CONFIG_SECURITY_APPARMOR=y
+            - CONFIG_SYN_COOKIES=y
+            - CONFIG_STRICT_DEVMEM=y
+            - CONFIG_DEFAULT_SECURITY_APPARMOR=y
+            - CONFIG_SECCOMP_FILTER=y
+            - CONFIG_CC_STACKPROTECTOR=y
+            - CONFIG_CC_STACKPROTECTOR_STRONG=y
+            - CONFIG_DEBUG_RODATA=y
+            - CONFIG_DEBUG_SET_MODULE_RONX=y
         
         kernel-initrd-modules:
             - squashfs

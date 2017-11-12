@@ -12,8 +12,8 @@ pushd kernel
 snapcraft --target-arch armhf --debug
 popd
 
-sudo ubuntu-image -c stable -i 512M \
-    --extra-snaps gadget/udoo-quad-gadget_16-0.1_armhf.snap  \
-    --extra-snaps kernel/udoo-quad-kernel_4.4_armhf.snap \
-    -O build_img  udoo-quad.model --debug
+ubuntu-image -c stable -i 512M \
+    --extra-snaps gadget/orangepi-one-gadget_16-0.1_armhf.snap \
+    --extra-snaps kernel/orangepi-one-kernel_4.13_armhf.snap \
+    -O build_img orangepi-one.model --debug
 

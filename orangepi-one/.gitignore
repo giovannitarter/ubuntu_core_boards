@@ -1,0 +1,7 @@
+build_img
+*.snap
+*/parts
+*/prime
+*/snap
+*/stage
+

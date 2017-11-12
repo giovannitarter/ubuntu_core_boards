@@ -8,7 +8,7 @@ volumes:
       - name: u-boot
         type: bare
         offset: 8192
-        size: 449951
+        size: 450048
         content:
           - image: u-boot-sunxi-with-spl.bin
       - name: system-boot
