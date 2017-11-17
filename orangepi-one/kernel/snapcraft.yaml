@@ -1,5 +1,5 @@
 name: orangepi-one-kernel
-version: 4.13
+version: 4.14
 summary: A orange pi one kernel built from source
 description: This is the reference kernel for orange pi
 type: kernel
@@ -12,10 +12,10 @@ parts:
         
         source-type: git
         source: /home/praim/src/linux-orangepi
-        source-branch: orange-pi-4.13
+        source-branch: orange-pi-4.14
 
         #kdefconfig: [sunxi_defconfig]
-        kconfigfile: config_orangepi_4.13
+        kconfigfile: config_orangepi_4.14
         kconfigs:
             - CONFIG_LOCALVERSION="-orangepi-one"
             - CONFIG_DEBUG_INFO=y
@@ -43,7 +43,7 @@ parts:
             - sun8i-h3-orangepi-one
 
         #kernel-with-firmware: False
-        kernel-with-firmware: True
+        kernel-with-firmware: False
 
         build-packages: [bc, kmod, cpio]
 
